@@ -31,13 +31,12 @@
         <!-- Carga de Require con archivo main.js (este a su vez llama a función Initialize en módulo Apps)-->
         <script src="js/libs/require/require.js" data-main="js/main"></script>
 
-    	<script src="js/libs/jquery/jquery-1.7.1.min.js"></script>
-    	<script src="js/libs/jquery_mobile/jquery.mobile-1.1.1.min.js"></script>
-    	<script type="text/javascript" src="js/libs/underscore/underscore-min.js"></script>
-    	<script type="text/javascript" src="js/libs/backbone/backbone-min.js"></script>
-
     </head>
     <body>
+    
+<!-- Page Home -->
+<div data-role="page" id="home" data-theme="c">
+
         <!-- /header -->
     <div data-role="header"  data-position='fixed' data-theme="f">
         <div class="logo-header" id"headerIndex"><h1>Test TIDE</h1></div>
@@ -47,7 +46,6 @@
     <!-- content -->
     <div data-role="content" id='mmPrincipal'>
         <ul id="main_menu_list" data-role="listview" data-theme="c">
-        	<li>Hola</li>
             <!-- Los elementos de la lista se generan en forma dinámica  -->
         </ul>
     </div>
@@ -61,20 +59,6 @@
 
 
 </div>
-<!-- /page -->
-
-        <div class="app">
-            <h1>PhoneGap</h1>
-            <div id="deviceready">
-                <p class="status pending blink">Connecting to Device</p>
-                <p class="status complete blink hide">Device is Ready</p>
-            </div>
-        </div>
-        <script type="text/javascript" src="phonegap.js"></script>
-        <script type="text/javascript" src="js/index.js"></script>
-        <script type="text/javascript">
-            app.initialize();
-        </script>
     </body>
 </html>
 
