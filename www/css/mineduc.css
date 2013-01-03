@@ -1,0 +1,348 @@
+/**********************************************
+ *   mineduc.css
+ *   Actualizado  10 jun 2012
+ * 
+ **********************************************/
+
+/*-----------------Mejoreas  Jquery.mobile-------------------------------------------------------------------*/
+.ui-footer-fixed {
+    bottom: 0;
+    height: 40px;
+}
+
+.ui-bar-c {
+    border: 1px solid       #B3B3B3 /*{c-bar-border}*/;
+    background:             #eeeeee /*{c-bar-background-color}*/;
+    color:                  #3E3E3E /*{c-bar-color}*/;
+    font-weight: bold;
+    text-shadow: 0 /*{c-bar-shadow-x}*/ 1px /*{c-bar-shadow-y}*/ 1px /*{c-bar-shadow-radius}*/  #fff /*{c-bar-shadow-color}*/;
+    background-image: -webkit-gradient(linear, left top, left bottom, from( #f0f0f0 /*{c-bar-background-start}*/), to( #ddd /*{c-bar-background-end}*/)); /* Saf4+, Chrome */
+    background-image: -webkit-linear-gradient( #dedede /*{c-bar-background-start}*/, #c7c7c7 /*{c-bar-background-end}*/); /* Chrome 10+, Saf5.1+ */
+    background-image:    -moz-linear-gradient( #dedede /*{c-bar-background-start}*/, #c7c7c7 /*{c-bar-background-end}*/); /* FF3.6 */
+    background-image:     -ms-linear-gradient( #dedede /*{c-bar-background-start}*/, #c7c7c7 /*{c-bar-background-end}*/); /* IE10 */
+    background-image:      -o-linear-gradient( #dedede /*{c-bar-background-start}*/, #c7c7c7 /*{c-bar-background-end}*/); /* Opera 11.10+ */
+    background-image:         linear-gradient( #dedede /*{c-bar-background-start}*/, #c7c7c7 /*{c-bar-background-end}*/);
+}
+
+
+.ui-body-c,
+.ui-overlay-c {
+    border: 1px solid       #aaa /*{c-body-border}*/;
+    color:                  #585858 /*{c-body-color}*/;
+    text-shadow: 0 /*{c-body-shadow-x}*/ 1px /*{c-body-shadow-y}*/ 0 /*{c-body-shadow-radius}*/ #fff /*{c-body-shadow-color}*/;
+    background:             #f9f9f9 /*{c-body-background-color}*/;
+    background-image: -webkit-gradient(linear, left top, left bottom, from( #f9f9f9 /*{c-body-background-start}*/), to( #eeeeee /*{c-body-background-end}*/)); /* Saf4+, Chrome */
+    background-image: -webkit-linear-gradient( #f9f9f9 /*{c-body-background-start}*/, #eeeeee /*{c-body-background-end}*/); /* Chrome 10+, Saf5.1+ */
+    background-image:    -moz-linear-gradient( #f9f9f9 /*{c-body-background-start}*/, #eeeeee /*{c-body-background-end}*/); /* FF3.6 */
+    background-image:     -ms-linear-gradient( #f9f9f9 /*{c-body-background-start}*/, #eeeeee /*{c-body-background-end}*/); /* IE10 */
+    background-image:      -o-linear-gradient( #f9f9f9 /*{c-body-background-start}*/, #eeeeee /*{c-body-background-end}*/); /* Opera 11.10+ */
+    background-image:         linear-gradient( #f9f9f9 /*{c-body-background-start}*/, #eeeeee /*{c-body-background-end}*/);
+    
+}
+
+.ui-btn-up-c {
+    border: 1px solid       #ccc ;
+    background:             #eee ;
+    font-weight: bold;
+    color:                  #222 ;
+    text-shadow: 0  1px  0  #E8E8E8 ;
+    background-image: -webkit-gradient(linear, left top, left bottom, from( #E8E8E8 ), to( #DDD )); 
+    background-image: -webkit-linear-gradient( #E8E8E8 , #DDD  );
+    background-image:    -moz-linear-gradient( #E8E8E8 , #DDD ); 
+    background-image:     -ms-linear-gradient( #E8E8E8 , #DDD ); 
+    background-image:      -o-linear-gradient( #E8E8E8 , #DDD ); 
+    background-image:         linear-gradient( #E8E8E8 , #DDD );
+}
+
+.ui-btn-hover-c,.ui-btn-down-c, .ui-btn-active{
+    border: 1px solid       #225377 /*{b-bdown-border}*/;
+    background:             #4e89c5 /*{b-bdown-background-color}*/;
+    font-weight: bold;
+    color:                  #fff /*{b-bdown-color}*/;
+    text-shadow: 0 /*{b-bdown-shadow-x}*/ 1px /*{b-bdown-shadow-y}*/ 1px /*{b-bdown-shadow-radius}*/ #194b7e /*{b-bdown-shadow-color}*/;   
+    background-image: -webkit-gradient(linear, left top, left bottom, from( #295b8e ), to( #3e79b5 )); 
+    background-image: -webkit-linear-gradient( #295b8e , #3e79b5);
+    background-image:    -moz-linear-gradient( #295b8e , #3e79b5); 
+    background-image:     -ms-linear-gradient( #295b8e , #3e79b5); 
+    background-image:      -o-linear-gradient( #295b8e , #3e79b5); 
+    background-image:         linear-gradient( #295b8e , #3e79b5);
+}
+
+#navbar-simce_resultado .ui-btn-active {
+    border: 1px solid #2373A5;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: Helvetica,Arial,sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: 0 1px 1px #3373A5;
+    background-image: -webkit-gradient(linear, left top, left bottom, from( #295b8e ), to( #000 )); 
+    background-image: -webkit-linear-gradient( #295b8e , #3e79b5  );
+    background-image:    -moz-linear-gradient( #295b8e , #3e79b5 ); 
+    background-image:     -ms-linear-gradient( #295b8e , #3e79b5 ); 
+    background-image:      -o-linear-gradient( #295b8e , #3e79b5 ); 
+    background-image:         linear-gradient( #295b8e , #3e79b5 );
+
+}
+.ui-li-has-thumb .ui-btn-inner a.ui-link-inherit, .ui-li-static.ui-li-has-thumb  { min-height: 30px; padding-left: 50px; }
+.ui-li-has-arrow .ui-btn-inner a.ui-link-inherit, .ui-li-static.ui-li-has-arrow { padding-right: 30px; color: #1064A8;}
+.ui-btn-hover-c .ui-btn-inner a.ui-link-inherit,.ui-btn-active .ui-btn-inner a.ui-link-inherit{color:#FFF;}
+/*--------------------/Jquery.mobile--------------------------------------------------------------------*/
+
+/*---------- Header  --------*/
+.logo-header { background: url("../images/logo_mineduc.png") no-repeat scroll 2px 1px #FFFFFF;    cursor: pointer;    display: block;    height: 110px;}
+.logo-header h1 {   color: #666666;  float: right;  font-size: 24px;  padding-right: 20px;  position: relative;    top: 65px;}
+/*---------- /Header  --------*/
+
+/*---------- Twitter   --------*/
+#carruselTwitter{overflow: hidden; height: 35px; font-size: 1em;}
+#carruselTwitter ul{list-style: none outside none; position: relative;padding: 0;}
+#carruselTwitter li{float: left;}
+.txtTw{background: #DCEDFA;}
+ul#ListTwitters { list-style:none;} 
+/*---------- /Twitter   --------*/
+
+/*---------- contenidoDetalleFichaEstablecimiento  --------*/
+h3 {color:#333;margin-top: 5px;}
+            .ficha_seccion .ficha_nota {
+                margin-top:10px;
+                margin-bottom:10px;
+                font-size:0.6em;
+                color:#dadada;
+            }
+            
+
+            .ficha_seccion .ficha_nivel {
+                color: #DADADA;
+                font-size: 1em;
+                font-weight: bold;
+                margin-bottom: 10px;
+                margin-top: 10px;
+            }
+            
+           .ficha_seccion h2 {
+
+    color: #FFFFFF;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+            
+            .ficha_seccion h3 {
+                margin-top:10px;
+                margin-bottom:10px;
+                font-size:1em;
+                color:#dadada;
+            }
+            
+            .ficha_seccion h4 {
+                margin-top:10px;
+                margin-bottom:10px;
+                font-size:0.8em;
+                color:#dadada;
+            }
+            
+            .ficha_seccion
+            {
+                max-width: 800px;
+                margin: 0 auto;
+                text-shadow: none;
+                padding: 5px;
+                
+                /* rounded corners */
+                -moz-border-radius: 10px;
+                -webkit-border-radius: 10px;
+                border-radius: 10px;
+                
+                /* add gradient */
+                background-color: #808080;
+                background: -webkit-gradient(linear, left top, left bottom, from(#001745), to(#146DB0));
+                background: -moz-linear-gradient(top, #001745, #146DB0);    
+                
+                /* add box shadows */
+                -moz-box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+                -webkit-box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+                box-shadow: 5px 5px 10px rgba(0,0,0,0.3);    
+            }
+            
+            .ficha_seccion h1 {color:#FFE47A; font-size:1.5em;}
+            
+            .ficha_seccion ul{padding-left: 10px;}
+            /*** sample table to demonstrate CSS3 formatting ***/
+            .ficha_seccion table {
+                margin-top: 5px;
+                padding-top: 5px;
+                width: 100%;
+                border-collapse:collapse;
+                text-align:left;
+                color: #606060;
+                /*table-layout: fixed;
+                word-wrap: break-word;*/
+            }
+            
+            /*** table's thead section, head row style ***/
+            .ficha_seccion table thead tr td  {
+                background-color: White;
+                vertical-align:middle;
+                padding: 0.6em;
+                font-size:0.8em;
+            }
+            
+            /*** table's thead section, coulmns header style ***/
+            .ficha_seccion table thead tr th
+            {
+                padding: 0.5em;
+                /* add gradient */
+                background-color: #808080;
+                background: -webkit-gradient(linear, left top, left bottom, from(#001745), to(#001745));
+                background: -moz-linear-gradient(top, #001745, #146DB0);
+                color: #FFFFFF;
+            }
+            
+            /*** table's tbody section, odd rows style ***/
+            .ficha_seccion table tbody tr:nth-child(odd) {
+                background-color: #fafafa;
+            }
+            
+            
+            /*** table's tbody section, even rows style ***/
+            .ficha_seccion table tbody tr:nth-child(even) {
+                background-color: #efefef;
+            }
+            
+            
+            /*** table's tbody section, last row style ***/
+            .ficha_seccion table tbody tr:last-child {
+                border-bottom: solid 1px #404040;
+            }
+            
+            /*** table's tbody section, separator row pseudo-class ***/
+            .ficha_seccion table tbody tr.separator {
+                /* add gradient */
+                background-color: #808080;
+                background: -webkit-gradient(linear, left top, left bottom, from(#606060), to(#909090));
+                background: -moz-linear-gradient(top, #606060, #909090);
+                color: #dadada;
+            }
+            
+            /*** table's td element, all section ***/
+            .ficha_seccion table td {
+                vertical-align:middle;
+                padding: 0.5em;
+                /*width:10px;*/
+                width: 50%;
+                content: "\00200B";
+                word-wrap:break-word;
+            }
+            
+            /*** table's tfoot section ***/
+            .ficha_seccion table tfoot{
+                text-align:center;
+                color:#303030;
+                text-shadow: 0 1px 1px rgba(255,255,255,0.3);
+            }   
+            
+            
+            
+ /*---------- /contenidoDetalleFichaEstablecimiento  --------*/           
+
+/*#page-content-mapaEstablecimiento{height:200px;}*/
+
+.msgStatus{
+    color:red;
+    text-align:center;
+    display: none;
+}
+
+#page-content-contenidoDetalleFicha {
+    padding: 10px 4px 4px;
+}
+
+#graficoHistorico{ width: 100%;}
+
+.ui-btn-down-c:hover,
+.ui-btn-down-c .ui-btn-inner a.ui-link-inherit{
+    color: #fff;
+}
+
+
+/*
+#tooltip
+{
+    text-align: center;
+    color: #fff;
+    background: #111;
+    position: absolute;
+    z-index: 100;
+    padding: 15px;
+}
+ 
+    #tooltip:after 
+    {
+        width: 0;
+        height: 0;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-top: 10px solid #111;
+        content: '';
+        position: absolute;
+        left: 50%;
+        bottom: -10px;
+        margin-left: -10px;
+    }
+ 
+        #tooltip.top:after
+        {
+            border-top-color: transparent;
+            border-bottom: 10px solid #111;
+            top: -20px;
+            bottom: auto;
+        }
+ 
+        #tooltip.left:after
+        {
+            left: 10px;
+            margin: 0;
+        }
+ 
+        #tooltip.right:after
+        {
+            right: 10px;
+            left: auto;
+            margin: 0;
+        }
+*/
+
+.ui-header-fixed,.ui-footer-fixed{
+    position: fixed !important;
+ }
+ 
+ 
+* { -webkit-touch-callout: none; -webkit-user-select: none;}
+
+
+
+input {
+    -webkit-user-select: auto;
+
+}
+
+.comuna{font-size:10px;display:block;}
+
+
+.ui-icon-loading {
+    background: url(jquery_mobile/images/ajax-loader.png);
+    background-size: 46px 46px;
+    width:46px;
+    height:46px;
+    -webkit-transform: rotate(360deg);
+    -webkit-animation-name: spin;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-iteration-count:  infinite;
+    -webkit-animation-timing-function: linear;
+}
+@-webkit-keyframes spin {
+    from {-webkit-transform: rotate(0deg);}
+    to {-webkit-transform: rotate(360deg);}
+} 
+
