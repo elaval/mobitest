@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "cl.tide.demopg"
+        id        = "com.phonegap.hello-world"
         version   = "2.0.0">
-    <name>Mobile TIDE Demo</name>
+    <name>Hello World</name>
 
     <description>
         Hello World sample application that responds to the deviceready event.
     </description>
 
-    <author href="http://www.tide.cl.com" email="info@tide.cl">
-        TIDE Team
+    <author href="http://phonegap.com" email="support@phonegap.com">
+        PhoneGap Team
     </author>
 
     <feature name="http://api.phonegap.com/1.0/device" />
